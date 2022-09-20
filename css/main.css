@@ -207,7 +207,7 @@ div.txt-bk {
   font-weight: 400;
   letter-spacing: -2px;
   line-height: 78px;
-  color: black;
+  color: #1e478e;
   /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -222,7 +222,7 @@ div.txt-bk {
   line-height: 0px;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
-  color: #212121;
+  color: #1e478e;
   font-weight: 500;
 }
 
@@ -242,6 +242,15 @@ div.txt-bk {
   height: 100%;
   z-index: -1;
   overflow: hidden;
+}
+
+.bg-overlay {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.2;
 }
 .main-main-content-1 .img-box > div {
   width: 100%;
@@ -284,6 +293,27 @@ div.txt-bk {
 /* .main-main-content-1 .mobile-menu-box {
   display: none;
 } */
+
+.main-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 400px;
+  /* background-color: #3f4982; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-message span {
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  color: #1c345d;
+}
 
 /* 메인 콘텐츠 02  */
 
@@ -735,6 +765,8 @@ footer {
 
 .audition-content-01 .inform-content-txt {
   margin-top: 30px;
+
+  /* background-color: #363636; */
 }
 
 .audition-content-01 .inform-content-txt > span:nth-child(4),
@@ -792,7 +824,7 @@ footer {
   top: 41%;
 }
 
-.audition-content-01 ㅌ`.mobile-menu-box {
+.audition-content-01 .mobile-menu-box {
   display: none;
 }
 
@@ -862,7 +894,7 @@ footer {
 
 .company-content-01 .img-banner {
   width: 100%;
-  height: 32vh;
+  height: 300px;
   position: relative;
 }
 .company-content-01 .img-banner > .img-box {
@@ -1067,6 +1099,7 @@ footer {
   position: relative;
   margin: 120px auto;
   width: 1200px;
+  height: 640px;
   /*   background-color:pink; */
   display: flex;
   align-items: center;
@@ -1256,6 +1289,14 @@ img {
 
 .contact-content-01 .mobile-menu-box {
   display: none;
+}
+
+.map-img {
+  width: 700px;
+  height: 400px;
+}
+.map-img div {
+  width: 100%;
 }
 
 /* 아티스트 페이지 */
@@ -2018,7 +2059,7 @@ button {
   margin-top: 1.6rem;
 }
 .logo-box {
-  width: 240px;
+  width: 220px;
 }
 .logo-box img {
   display: block;
@@ -2040,6 +2081,7 @@ button {
 .menu-box > ul > li > a {
   display: block;
   padding: 10px;
+  color: #1e478e;
 }
 .menu-box > ul > li:hover > a {
   text-decoration: underline;

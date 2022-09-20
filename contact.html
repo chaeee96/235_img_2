@@ -19,10 +19,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/main/favi.png" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/response.css">
-      <!-- font-awesome -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/response.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -31,7 +35,7 @@
         <div class="second-menu-box">
           <div class="logo-box">
             <a href="index.html">
-              <img src="img/logo/logo(eng).png" title="logo(eng).png"
+              <img src="img/logo/q_logo.png" title="logo(eng).png"
             /></a>
           </div>
           <div class="menu-box">
@@ -91,7 +95,7 @@
 
         <div class="email-box">
           <span>E-mail</span>
-          <span>35lee@235enter.com</span>
+          <span>qtent@quantumenter.com</span>
         </div>
 
         <div class="Tel&Fax-box">
@@ -103,11 +107,14 @@
         <div class="map-box">
           <span>Map</span>
 
-          <div>
-            <img
-              src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/contact/map.png"
-              title="map.png"
-            />
+          <div class="map-img">
+            <!-- * 카카오맵 - 지도퍼가기 -->
+            <!-- 1. 지도 노드 -->
+            <div
+              id="daumRoughmapContainer1663678350005"
+              class="root_daum_roughmap root_daum_roughmap_landing"
+              align="center"
+            ></div>
           </div>
         </div>
       </div>
@@ -120,5 +127,24 @@
     </section>
   </body>
 
+  <!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+  <script
+    charset="UTF-8"
+    class="daum_roughmap_loader_script"
+    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+  ></script>
+
+  <!-- 3. 실행 스크립트 -->
+  <script charset="UTF-8">
+    new daum.roughmap.Lander({
+      timestamp: "1663678350005",
+      key: "2brsy",
+      mapWidth: "700",
+      mapHeight: "360",
+    }).render();
+  </script>
   <script src="js/main.js"></script>
 </html>

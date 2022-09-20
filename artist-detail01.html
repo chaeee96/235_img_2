@@ -1,198 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://chaeee96.github.io/cdn/jquery.fadethis.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
+    <meta name="viewport" content="user-scalable=0;" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no"
+      name="viewport"
+    />
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://chaeee96.github.io/cdn/jquery.fadethis.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.tailwindcss.com"></script>
-  <!-- font-awesome -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
-<meta name="viewport" content="user-scalable=0;"/>
-<meta content="yes" name="apple-mobile-web-app-capable" />
-<meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/main/favi.png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/response.css" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <div class="artist-detail-02-content">
+    <section class="second-menu-con">
+      <div class="second-menu-box">
+        <div class="logo-box">
+          <a href="index.html">
+            <img src="img/logo/q_logo.png" title="logo(eng).png"
+          /></a>
+        </div>
+        <div class="menu-box">
+          <ul>
+            <li>
+              <a href="company.html">COMPANY</a>
+            </li>
+            <li><a href="business.html">BUSINESS</a></li>
+            <li><a href="artist.html">ARTIST</a></li>
+            <li><a href="audition.html">AUDITION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/response.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-<div class="artist-detail-02-content">
-  <section class="second-menu-con">
-   <div class="second-menu-box">
-    <div class="logo-box">
-      <a href="index.html"> <img src="img/logo/logo(eng).png" title="logo(eng).png"/></a>
+    <div class="mobile-menu-box">
+      <div class="mobile-menu-con">
+        <div class="mobile-menu-txt-box">
+          <ul>
+            <li><a href="/docs/company.html">COMPANY</a></li>
+            <li><a href="/docs/business.html">BUSINESS</a></li>
+            <li><a href="/docs/artist.html">ARTIST</a></li>
+            <li><a href="/docs/audition.html">AUDTITION</a></li>
+            <li><a href="/docs/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="mobile-menu-btn-box">
+          <div class="mobile-menu-btn">
+            <a href="#" id="menu-btn-click"
+              ><img src="img/main/mobile-menu.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
     </div>
-   <div class="menu-box">
-     <ul>
-      <li>
-        <a href="company.html">COMPANY</a>
-      </li>
-      <li><a href="business.html">BUSINESS</a></li>
-      <li><a href="artist.html">ARTIST</a></li>
-      <li><a href="audition.html">AUDITION</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
-     </ul>
-   </div>
-   </div>
-   
- </section>
+    <div class="img-banner">
+      <div class="img-box">
+        <img
+          src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/artist/unsplash_pRh9RiynHGE.png"
+          title="unsplash_pRh9RiynHGE.png"
+        />
+      </div>
+      <div class="overlay"></div>
 
- <div class="mobile-menu-box">
-  <div class="mobile-menu-con">
-    
-    <div class="mobile-menu-txt-box">
-      <ul>
-       <li><a href="/docs/company.html">COMPANY</a></li>
-       <li><a href="/docs/business.html">BUSINESS</a></li>
-       <li><a href="/docs/artist.html">ARTIST</a></li>
-       <li><a href="/docs/audition.html">AUDTITION</a></li>
-       <li><a href="/docs/contact.html">CONTACT</a></li>
-      </ul>
-    
-   </div>
-    <div class="mobile-menu-btn-box">
+      <span>Artist</span>
+    </div>
 
-     <div class="mobile-menu-btn">
+    <div class="artist-intro-box">
+      <div class="artist-img-slider">
+        <div class="bg-reg"></div>
 
-       <a href="#" id="menu-btn-click"><img src="img/main/mobile-menu.png" alt=""></a>
-     </div>
-    
+        <div class="artist-img-box">
+          <div class="on">
+            <img
+              src="img/artist-detail/01/Rectangle 194.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 195.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 196.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 197.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 198.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 199.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 200.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 201.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 202.png"
+              title="Rectangle 176.png"
+            />
+          </div>
 
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 364.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 365.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 366.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 367.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+          <div>
+            <img
+              src="img/artist-detail/01/Rectangle 368.png"
+              title="Rectangle 176.png"
+            />
+          </div>
+        </div>
+
+        <div class="next-btn-box">
+          <button class="next-btn">
+            <img
+              src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/artist-detail/next-btn.png"
+              title="next-btn.png"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="artist-intro-txt">
+        <div>
+          <div>
+            <a
+              href="https://www.instagram.com/stories/dan_geunjuice/2759771521927807771/"
+              ><img
+                src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/artist-detail/carbon_logo-instagram.png"
+                title="carbon_logo-instagram.png"
+            /></a>
+          </div>
+          <span>이근주(Geun-Joo Lee)</span>
+        </div>
+        <div>
+          <div>
+            <span>출생</span>
+          </div>
+          <div>
+            <span>1994.03.06</span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>학력</span>
+          </div>
+          <div>
+            <span>동덕여대 방송연예과 전공</span>
+          </div>
+        </div>
+        <div>
+          <div><span>경력</span></div>
+          <div>
+            <span>2016 연극 ‘우리들의 아트’</span>
+            <span>2017 웹드라마 ‘마주, 봄’</span>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <span>CF</span>
+          </div>
+          <div>
+            <span>‘라파젠 여성청결제’ TVC 메인모델</span>
+            <span>'JTBC 뉴스10 어플’ TVC </span>
+            <span>‘Nescafe’ 구름치노 편 메인모델 </span>
+            <span>'유한킴벌리' 브랜드필름 메인모델 </span>
+            <span>‘이음소시어스-맺음’ 여자편 메인모델 </span>
+            <span>'제이앤지 코스메틱' 디스플레이 영상 메인모델 </span>
+            <span>‘키스마일’ 브레싱 아쿠아 마스크 메인모델</span>
+            <span>‘KATE’ 뷰티 튜토리얼 (2017. 04) 메인모델</span>
+            <span>코스메틱브랜드 ‘Some by me’ 바이럴 홍보영상 , </span>
+            <span>코스메틱브랜드 ‘Moon Shot’ 바이럴 홍보영상 다수</span>
+            <span>'삼성전자' 삼성디지털시티 홍보영상 메인모델</span>
+          </div>
+        </div>
+        <div>
+          <div><span>뮤직비디오</span></div>
+          <div>
+            <span>EDEN(이든)-Good night</span>
+            <span>EDEN(이든)-93</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="second-footer">
+      <div>
+        <img src="img/logo/second-footer.png" title="Group 181.png" />
+      </div>
     </div>
   </div>
-
-</div>
-   <div class="img-banner">
-     <div class="img-box">
-       <img src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/artist/unsplash_pRh9RiynHGE.png" title="unsplash_pRh9RiynHGE.png"/>
-     </div>
-    <div class="overlay">
-       
-     </div>
-    
-     <span>Artist</span>
-   </div>
-  
-  
-  <div class="artist-intro-box">
-    <div class="artist-img-slider">
-      <div class="bg-reg">
-        
-        
-      </div>
-
-      <div class="artist-img-box"> 
-         <div class="on">  <img src="img/artist-detail/01/Rectangle 194.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 195.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 196.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 197.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 198.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 199.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 200.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 201.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 202.png" title="Rectangle 176.png"/></div>
-        
-         <div>  <img src="img/artist-detail/01/Rectangle 364.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 365.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 366.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 367.png" title="Rectangle 176.png"/></div>
-         <div>  <img src="img/artist-detail/01/Rectangle 368.png" title="Rectangle 176.png"/></div>
-       
-      </div>     
-      
-      <div class="next-btn-box">
-        <button class="next-btn"><img src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/artist-detail/next-btn.png" title="next-btn.png"/></button>
-      </div>
-    </div>
-    <div class="artist-intro-txt">
-      <div>
-          <div><a href="https://www.instagram.com/stories/dan_geunjuice/2759771521927807771/"><img src="https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/artist-detail/carbon_logo-instagram.png" title="carbon_logo-instagram.png"/></a>
-            </div>
-         <span>이근주(Geun-Joo Lee)</span>
-        
-       </div>
-      <div>
-        <div>
-           <span>출생</span>
-        </div>
-        <div>
-          <span>1994.03.06</span>      
-        </div>     
-      </div>
-      <div> 
-        <div>
-          <span>학력</span>
-        </div>
-        <div>
-          <span>동덕여대 방송연예과 전공</span>
-        </div>
-           
-      </div>
-      <div>
-        <div> <span>경력</span> </div>
-        <div><span>2016 연극 ‘우리들의 아트’</span>
-          <span>2017 웹드라마 ‘마주, 봄’</span>
-            
-        </div>
-        
-        
-          
-          
-        </div>
-        
-      
-      <div>
-        <div>
-           <span>CF</span>
-        </div>
-        <div>
-          <span>‘라파젠 여성청결제’ TVC 메인모델</span>
-          <span>'JTBC 뉴스10 어플’ TVC 
-</span>
-          <span>‘Nescafe’ 구름치노 편 메인모델 </span>
-          <span>'유한킴벌리' 브랜드필름 메인모델 
-</span>
-          <span>‘이음소시어스-맺음’ 여자편 메인모델
-</span>
-          <span>'제이앤지 코스메틱' 디스플레이 영상 메인모델
-</span>
-          <span>‘키스마일’ 브레싱 아쿠아 마스크  메인모델</span>
-          <span>‘KATE’ 뷰티 튜토리얼 (2017. 04) 메인모델</span>
-          <span>코스메틱브랜드 ‘Some by me’  바이럴 홍보영상
-, </span>
-          <span>코스메틱브랜드 ‘Moon Shot’ 바이럴  홍보영상 다수</span>
-          <span>'삼성전자' 삼성디지털시티 홍보영상 메인모델</span>
-        </div>
-      </div>
-      <div>
-        <div><span>뮤직비디오</span></div>
-        <div>
-          <span>EDEN(이든)-Good night</span>
-          <span>EDEN(이든)-93</span>
-            
-        </div>
-      </div>
-     
-
-    </div>
-  </div>
- 
- <div class="second-footer">
-  <div>
-     <img src="img/logo/second-footer.png" title="Group 181.png"/>
-  </div>
-  
- </div>
-   
-</div>
-<script src="js/main.js"></script>
-<script src="js/artist.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/artist.js"></script>
 </html>
