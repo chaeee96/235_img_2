@@ -1,0 +1,597 @@
+/* 미디어 쿼리 */
+
+@media (min-width: 761px) and (max-width: 1148px) {
+  /* 태블릿   */
+
+  .img-box > div:nth-child(1) {
+    /* background-image: url("https://i.imgur.com/tMJM1dx.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-box > div:nth-child(2) {
+    /* background-image: url("https://i.imgur.com/iRFl9dP.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-box > div:nth-child(3) {
+    /* background-image: url("https://i.imgur.com/VghYIo6.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-box > div:nth-child(4) {
+    /* background-image: url("https://i.imgur.com/q77Lx3w.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-main-content-1 .mobile-menu-box {
+    display: block;
+    right: 0%;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+
+  .company-content-01 .mobile-menu-box {
+    display: block;
+    right: 0%;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+
+  .menu-box {
+    display: none;
+  }
+
+  .logo-box {
+    margin-left: 5%;
+  }
+
+  .main01-slide-txt-box {
+    left: 10%;
+    top: 28%;
+  }
+  .scroll-box {
+    left: 48%;
+  }
+  .main-content-02 .content-02__title > span {
+    font-size: 32px;
+  }
+  /*  모바일 메뉴박스  */
+
+  .mobile-menu-btn-box {
+    position: absolute;
+    top: 6%;
+    left: 66%;
+    width: 42px;
+    height: 42px;
+  }
+  .mobile-menu-btn-box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-menu-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+
+    transition: all 0.5s ease-in-out 0.1s;
+  }
+
+  .mobile-menu-con {
+    position: relative;
+    height: 100%;
+  }
+
+  .mobile-menu-con > div {
+    position: absolute;
+  }
+
+  .mobile-menu-txt-box {
+    position: absolute;
+    right: -120%;
+    width: 100%;
+    height: 100%;
+    background-color: #ececec;
+
+    transition: all 0.5s ease-in-out 0.3s;
+  }
+
+  .mobile-menu-txt-box > ul {
+    /*     
+      width: 100%;
+      height: 70%; */
+    margin-top: 120px;
+  }
+  .mobile-menu-txt-box > ul > li {
+    margin: 40px;
+    width: 80%;
+    margin: 30px auto;
+    /*     background-color:pink;  */
+  }
+
+  .mobile-menu-txt-box > ul > li a {
+    display: block;
+    padding: 15px 20px;
+    width: 80%;
+    font-size: 20px;
+    z-index: 100;
+    /*  background-color:pink;  */
+  }
+
+  .main-main-content-1 .main01-slide-txt-box {
+    left: 12%;
+  }
+  .content-02 > .bg-logo > div:nth-child(1) {
+    top: 16%;
+    left: 26%;
+  }
+
+  .main-content-02 .content-02__title {
+    top: 8%;
+    left: 10%;
+  }
+
+  .content-02__title span {
+    font-size: 32px;
+  }
+
+  .contact-content-01 .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+
+  .business-content .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .audition-content-01 .mobile-menu-box {
+    display: block;
+    right: 70px;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+
+  .business-content .business-content-box {
+    flex-direction: column;
+    width: 600px;
+  }
+  .audition-content-01 .audition-title-box {
+    width: 600px;
+  }
+
+  .audition-content-01 .inform-box {
+    width: 100%;
+    margin: auto;
+  }
+
+  .audition-content-01 .mobile-menu-box {
+    z-index: 2000;
+  }
+  .artist-content .artist-box {
+    width: 710px;
+    height: 1100px;
+  }
+  .artist {
+    margin: auto;
+  }
+
+  .artist-content .artists {
+    flex-direction: column;
+  }
+
+  /*  회사페이지   */
+
+  .artist-detail-01-content .artist-intro-box {
+    width: 600px;
+    margin-left: 120px;
+  }
+  /*  */
+}
+
+@media (min-width: 200px) and (max-width: 760px) {
+  /*  폰  */
+
+  .img-box > div:nth-child(1) {
+    /* background-image: url("https://i.imgur.com/tMJM1dx.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-box > div:nth-child(2) {
+    /* background-image: url("https://i.imgur.com/iRFl9dP.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-box > div:nth-child(3) {
+    /* background-image: url("https://i.imgur.com/VghYIo6.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img-box > div:nth-child(4) {
+    /* background-image: url("https://i.imgur.com/q77Lx3w.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .company-content-01 .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .contact-content-01 .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .business-content .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .audition-content-01 .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .artist-content .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .artist-detail-01-content .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .artist-detail-02-content .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .company-content-01 .mobile-menu-box {
+    display: block;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+  }
+  .company-content-01 .second-menu-con {
+    height: 80px;
+  }
+  .company-content-01 .mobile-menu-btn-box {
+    top: 4%;
+  }
+  .menu-box {
+    display: none;
+  }
+
+  .logo-box {
+    transform: scale(0.6);
+    top: 20%;
+    left: -4%;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .mobile-menu-icon-box {
+    position: absolute;
+    left: 86%;
+    top: 33%;
+    /* background-image: url("https://i.imgur.com/JQ9ZDjH.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+  }
+
+  .main01-slide-txt-box {
+    left: 10%;
+    top: 28%;
+  }
+  .txt-kor {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .main-main-content-1 .txt-eng {
+    font-size: 16px;
+  }
+
+  .main-main-content-1 .scroll-box {
+    top: 78%;
+    left: 42%;
+  }
+
+  /*  모바일 메뉴박스  */
+
+  .mobile-menu-btn-box {
+    position: absolute;
+    top: 7%;
+    left: 70%;
+    width: 22px;
+    height: 22px;
+  }
+  .mobile-menu-btn-box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-menu-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+
+    transition: all 0.5s ease-in-out 0.1s;
+  }
+
+  .mobile-menu-con {
+    position: relative;
+    height: 100%;
+  }
+
+  .mobile-menu-con > div {
+    position: absolute;
+  }
+
+  .mobile-menu-txt-box {
+    position: absolute;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #ececec;
+
+    transition: all 0.5s ease-in-out 0.3s;
+  }
+
+  .mobile-menu-txt-box > ul {
+    /*     
+      width: 100%;
+      height: 70%; */
+    margin-top: 120px;
+  }
+  .mobile-menu-txt-box > ul > li {
+    margin: 40px;
+    width: 80%;
+    margin: 30px auto;
+    /*     background-color:pink;  */
+  }
+
+  .main-content-02 .mobile-menu-txt-box > ul > li a {
+    display: block;
+    padding: 15px 20px;
+    width: 80%;
+    font-size: 14px;
+    z-index: 100;
+    /*  background-color:pink;  */
+  }
+
+  .main-content-02 .content-02 > .bg-logo > div:nth-child(1) {
+    top: 1%;
+    left: -15%;
+    transform: scale(0.5); /*  default */
+
+    -webkit-transform: scale(0.5); /*  크롬 */
+    -moz-transform: scale(0.5); /* FireFox */
+    -o-transform: scale(0.5); /* Opera */
+  }
+
+  .main-content-02 .content-02 > .bg-logo > div:nth-child(2) {
+    top: -32%;
+    left: -28%;
+    transform: scale(0.5); /*  default */
+
+    -webkit-transform: scale(0.5); /*  크롬 */
+    -moz-transform: scale(0.5); /* FireFox */
+    -o-transform: scale(0.5);
+  }
+
+  .main-content-02 .content-02__title {
+    left: 4.5%;
+    top: 10%;
+  }
+
+  .main-content-02 .content-02__title > span {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-content-box {
+    transform: scale(0.4); /*  default */
+
+    -webkit-transform: scale(0.4); /*  크롬 */
+    -moz-transform: scale(0.4); /* FireFox */
+    -o-transform: scale(0.4); /* Opera */
+  }
+
+  .main-content-02 .slide-txt-box span:nth-child(1) {
+    font-size: 38px;
+  }
+  .main-content-02 .slide-txt-box span:nth-child(2) {
+    font-size: 14px;
+  }
+  .main-content-02 wiper-slide > a > span {
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+
+  /*  컴퍼니 페이지  */
+
+  .company-title-box > span {
+    font-size: 16px;
+  }
+
+  .company-content-01 > .company-title-box {
+    height: 120px;
+  }
+
+  .company-content-box__txt {
+    margin-left: 8%;
+    width: 72%;
+    height: 500px;
+  }
+
+  .company-content-box__txt > span {
+    font-size: 20px;
+  }
+  .calli-imgbox {
+    transform: scale(0.6);
+  }
+
+  span.font-notokr {
+    display: block;
+    margin-top: 28px;
+
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: -6px;
+  }
+  .writer {
+    width: 200px;
+    margin-left: -45px;
+  }
+  .writer-box {
+    top: 70%;
+    left: -22%;
+  }
+
+  .second-footer > div {
+    transform: scale(0.6);
+    margin-left: 7%;
+  }
+  .img-banner > span {
+    font-size: 26px;
+  }
+
+  /* 컴퍼니 */
+  .company-content-01 .company-title-box > span {
+    font-size: 16px;
+  }
+  .company-content-01 .company-content-txt-box {
+    min-width: 200px;
+    margin: 40px 40px;
+  }
+  .company-content-01 .company-content-txt-box > span {
+    font-size: 20px;
+  }
+  .company-content-01 .writer-box {
+    min-width: 300px;
+    margin-left: -60px;
+  }
+
+  /* 오디션 */
+
+  .audition-content-01 .audition-title-box {
+    width: 300px;
+  }
+  .audition-title-box div:nth-child(1) > span:nth-child(1),
+  .audition-title-box div:nth-child(1) > span:nth-child(2) {
+    font-size: 18px;
+  }
+  .audition-title-box > div:nth-child(2) > span {
+    font-size: 12px;
+  }
+  .audition-content-01 .inform-title > span {
+    font-size: 28px;
+    margin: auto 34px;
+  }
+  .audition-content-01 .inform-content-box > div {
+    display: block;
+    position: static;
+  }
+  .audition-content-01 .inform-content-box {
+    top: 20px;
+  }
+  .audition-content-01 .inform-box {
+    height: 1600px;
+  }
+  /* 컨텍트 */
+
+  /*  비즈니스 */
+
+  /* 아티스트  */
+
+  /* 아티스트 01 */
+
+  /* 아티스트 02 */
+}
