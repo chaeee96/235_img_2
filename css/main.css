@@ -263,22 +263,22 @@ div.txt-bk {
   height: 100%;
 }
 .main-main-content-1 .img-box > div:nth-child(1) {
-  background-image: url("https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/main/03.png");
+  background-image: url("/img/main/03.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-main-content-1 .img-box > div:nth-child(2) {
-  background-image: url("https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/main/02.png");
+  background-image: url("/img/main/02.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-main-content-1 .img-box > div:nth-child(3) {
-  background-image: url("https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/main/05.png");
+  background-image: url("/img/main/05.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .main-main-content-1 .img-box > div:nth-child(4) {
-  background-image: url("https://cdn.jsdelivr.net/gh/chaeee96/235_img_2/docs/img/main/08.png");
+  background-image: url("/img/main/08.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1786,7 +1786,6 @@ img {
 }
 
 /* 최설화 님 상세페이지*/
-/*  */
 
 .artist-detail-01-content {
   width: 100%;
