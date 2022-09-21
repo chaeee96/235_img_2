@@ -1680,7 +1680,7 @@ img {
 .artist-detail-02-content .artist-intro-txt {
   position: absolute;
   left: 46%;
-  top: 128%;
+  top: 158%;
   transform: translate(-50%, -50%);
   width: 660px;
   padding-bottom: 110px;
@@ -1774,7 +1774,7 @@ img {
   justify-content: center;
   background-color: #d8d8d8;
   position: absolute;
-  top: 170%;
+  top: 194%;
 }
 .artist-detail-02-content .second-footer > div {
   position: absolute;
@@ -1786,6 +1786,7 @@ img {
 }
 
 /* 최설화 님 상세페이지*/
+/*  */
 
 .artist-detail-01-content {
   width: 100%;
