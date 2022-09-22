@@ -1006,9 +1006,7 @@ footer {
   top: 41%;
 }
 
-.company-content-01 .mobile-menu-box {
-  display: none;
-}
+
 
 /*  비즈니스 페이지 */
 
@@ -1149,10 +1147,6 @@ footer {
 .business-content .second-footer > div {
   position: absolute;
   top: 41%;
-}
-
-.business-content .mobile-menu-box {
-  display: none;
 }
 
 /* 컨텍트 페이지 */
@@ -2264,9 +2258,10 @@ button {
   position: absolute;
   top: 41%;
 }
-
-.mobile-menu-box {
-  display: none;
+@media (min-width: 768px) {
+  .mobile-menu-box {
+    display: none;
+  }
 }
 
 .footer-content-box {
@@ -2295,4 +2290,8 @@ button {
 .calli-imgbox img {
   display: block;
   width: 100%;
+}
+
+.mobile-menu {
+  display: none;
 }

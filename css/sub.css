@@ -1,0 +1,633 @@
+/* Fontawesome 4.7 */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* spoqa font */
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css");
+
+/* noto sans kr font*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* roboto snas font */
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Noto+Sans+KR&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap");
+
+/* exo fonts */
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Noto+Sans+KR&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap");
+
+/* 지마켓 fonts */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 샤이닝스타 font */
+@font-face {
+  font-family: "Cafe24Shiningstar";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* body font */
+
+/* reset css */
+
+html {
+  font-family: "Apple SD Gothic Neo", Roboto, "Noto Sans KR", NanumGothic,
+    "Malgun Gothic", sans-serif;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+div,
+span,
+article,
+section,
+header,
+footer,
+aside,
+p,
+ul,
+li,
+fieldset,
+legend,
+label,
+a,
+nav,
+form {
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* reset.css */
+
+/* 공통 */
+
+.second-footer {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(205, 205, 205);
+}
+.container {
+  width: 100%;
+}
+header {
+  width: 1140px;
+  height: 100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  width: 200px;
+}
+
+.menu-con {
+  margin-left: auto;
+}
+.menu-con ul {
+  display: flex;
+  width: 520px;
+
+  justify-content: space-between;
+  margin-top: 1.4rem;
+}
+.menu-con ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1c345d;
+}
+
+.banner {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+}
+.banner-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+}
+.banner-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1140px;
+  height: 100%;
+}
+
+.banner-title span {
+  display: block;
+  margin-top: 8rem;
+  font-size: 2.4rem;
+  font-family: "Exo", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* company */
+
+.company-wrap .message-a {
+  width: 1140px;
+  height: 20rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-wrap .message-a span {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "GmarketSansMedium";
+  background: linear-gradient(to right, #43509b, #823f3f);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.company-wrap .message-b {
+  width: 100%;
+  height: 40rem;
+  background-color: #f1f1f1;
+  margin-bottom: 8rem;
+}
+
+.company-wrap .message-b .message-b-con {
+  width: 1000px;
+  height: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+}
+.message-b-con-con {
+  display: flex;
+}
+.message-b-con-con div {
+  width: 300px;
+}
+.message-b-con p {
+  font-size: 2.4rem;
+  font-family: "Cafe24Shiningstar";
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+}
+.message-b-con-con {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.message-b-con-con span {
+  display: block;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.business-wrap .message-a {
+  width: 1140px;
+  height: 64vh;
+  padding: 6rem 4rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business-wrap .message-a div {
+  width: 440px;
+}
+
+/* artist */
+
+.artist-con {
+  width: 1140px;
+  height: 64vh;
+  margin: 0 auto;
+}
+
+.artist-con > span {
+  font-size: 2rem;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  display: block;
+  margin: 4rem 3rem;
+  color: #1c345d;
+}
+
+.arist-con-items {
+  width: 1000px;
+  margin: 0 auto;
+  height: 40rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.artist-con .item {
+  position: relative;
+  cursor: pointer;
+}
+.artist-con .item img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+.artist-con .item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(34, 42, 103);
+  opacity: 0.4;
+}
+
+.item-body {
+  position: absolute;
+  z-index: 100;
+  width: 80%;
+  height: 10rem;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-body span {
+  display: block;
+  height: 3rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-body span a {
+  color: white;
+}
+.item-body span:nth-child(1) {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.item-body span:nth-child(2) {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.item-body span:nth-child(3) {
+  margin-top: 2rem;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: solid white 2px;
+  border-radius: 10px;
+}
+
+.arist-con-items .item .overlay,
+.arist-con-items .item .item-body {
+  transition: 0.6s;
+  display: none;
+}
+
+.arist-con-items .item:hover .overlay,
+.arist-con-items .item:hover .item-body {
+  display: block;
+}
+
+/* artist-01 */
+.artist-detail-01 {
+  width: 1140px;
+  margin: 0 auto;
+
+  /* 바꿀것 */
+  height: 160vh;
+}
+.artist-detail-02 {
+  width: 1140px;
+  margin: 0 auto;
+
+  /* 바꿀것 */
+  height: 200vh;
+}
+
+.slide-con {
+  width: 700px;
+  margin: 6rem auto;
+  height: 840px;
+
+  position: relative;
+}
+.slide-bg {
+  width: 500px;
+  height: 700px;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 5%;
+  z-index: -1;
+}
+.slide-next-btn {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.slide-artist {
+  position: relative;
+  left: 5%;
+}
+.slide-artist div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.4s ease-out;
+}
+
+.slide-artist div:is(.pos-3) {
+  opacity: 1;
+}
+
+.artist-profile {
+  width: 700px;
+
+  margin: 0 auto;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.artist-title {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: 500;
+  margin: 3rem 0 4rem;
+}
+.artist-title > span {
+  display: block;
+  color: rgb(34, 42, 103);
+  font-size: 2rem;
+}
+.artist-title span::after {
+  content: "\f16d ";
+  font-family: fontawesome;
+  margin-left: 0.5rem;
+  color: #ab2c6e;
+  font-size: 2.4rem;
+}
+
+.row {
+  display: flex;
+  margin: 2rem 0;
+}
+.row-body {
+  display: flex;
+  flex-direction: column;
+}
+.row span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: block;
+  line-height: 1.7;
+}
+
+.row > span {
+  color: rgb(34, 42, 103);
+  font-weight: 600;
+  margin-right: 2rem;
+  width: 120px;
+}
+
+/* audtion */
+
+.audition-wrap .title {
+  width: 1140px;
+  margin: 0 auto;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14rem 0;
+}
+.audition-wrap .title span {
+  display: block;
+  font-size: 4rem;
+  font-family: "GmarketSansMedium";
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+}
+.audition-wrap .title span b {
+  font-weight: 500;
+  color: #43509b;
+}
+
+.audition-wrap .title small {
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  margin: 2rem 0;
+  line-height: 1.2;
+  color: #acacac;
+}
+
+.audition-con {
+  width: 100%;
+  background-color: #efefef;
+  padding: 6rem 0;
+}
+.audition-con-img {
+  width: 580px;
+  margin: 0 auto;
+}
+
+/* contact */
+
+.contact-con {
+  width: 1140px;
+  margin: 0 auto;
+  
+  padding: 4rem 12rem;
+}
+
+.contact-con .row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.contact-con .row > span {
+  width: 100%;
+}
+
+.contact-con .row > span:nth-child(1) {
+  font-weight: 600;
+  font-size: 2.4rem;
+  font-family: "Exo", sans-serif;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.contact-con .row > span:nth-child(2),
+.contact-con .row > span:nth-child(3) {
+  font-weight: normal;
+  font-size: 1.4rem;
+}

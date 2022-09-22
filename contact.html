@@ -1,112 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://chaeee96.github.io/cdn/jquery.fadethis.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
-    />
-    <meta name="viewport" content="user-scalable=0;" />
-    <meta content="yes" name="apple-mobile-web-app-capable" />
-    <meta
-      content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no"
-      name="viewport"
-    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="/css/sub.css" />
+    <link rel="stylesheet" href="/css/subresponse.css" />
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="js/sub.js"></script>
     <link rel="icon" href="img/main/favi.png" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/response.css" />
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>QUANTUM ENTERTAINMENT</title>
+    <title>Document</title>
   </head>
   <body>
-    <section class="contact-content-01">
-      <section class="second-menu-con">
-        <div class="second-menu-box">
-          <div class="logo-box">
-            <a href="index.html">
-              <img src="img/logo/q_logo.png" title="logo(eng).png"
-            /></a>
-          </div>
-          <div class="menu-box">
-            <ul>
-              <li>
-                <a href="company.html">COMPANY</a>
-              </li>
-              <li><a href="business.html">BUSINESS</a></li>
-              <li><a href="artist.html">ARTIST</a></li>
-              <li><a href="audition.html">AUDITION</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-          </div>
+    <div class="container contact-wrap">
+      <header>
+        <div class="logo">
+          <a href="/index.html"><img src="/img/logo/q_logo.png" alt="" /></a>
         </div>
-      </section>
-      <div class="mobile-menu-box">
-        <div class="mobile-menu-con">
-          <div class="mobile-menu-txt-box">
+        <div class="mobile-menu">
+          <div class="mobile-menu-con">
             <ul>
-              <li><a href="/docs/company.html">COMPANY</a></li>
-              <li><a href="/docs/business.html">BUSINESS</a></li>
-              <li><a href="/docs/artist.html">ARTIST</a></li>
-              <li><a href="/docs/audition.html">AUDTITION</a></li>
-              <li><a href="/docs/contact.html">CONTACT</a></li>
+              <li><a href="/company.html">COMPANY</a></li>
+              <li><a href="/business.html">BUSINESS</a></li>
+              <li><a href="/artist.html">ARTIST</a></li>
+              <li><a href="/audition.html">AUDITION</a></li>
+              <li><a href="/contact.html">CONTACT</a></li>
             </ul>
           </div>
-          <div class="mobile-menu-btn-box">
-            <div class="mobile-menu-btn">
-              <a href="#" id="menu-btn-click"
-                ><img src="img/main/mobile-menu.png" alt=""
-              /></a>
+
+          <div class="mobile-icon">
+            <div class="active">
+              <img src="/img/main/mobile-menu-open.png" alt="" />
+            </div>
+            <div>
+              <img src="/img/main/mobile-menu-close.png" alt="" />
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="img-banner">
-        <div class="img-box">
-          <img
-            src="/img/contact/unsplash_uXuXXHDgMdM.png"
-            title="unsplash_uXuXXHDgMdM.png"
-          />
+        <div class="menu-con">
+          <ul>
+            <li><a href="/company.html">COMPANY</a></li>
+            <li><a href="/business.html">BUSINESS</a></li>
+            <li><a href="/artist.html">ARTIST</a></li>
+            <li><a href="/audition.html">AUDITION</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+          </ul>
         </div>
-        <div class="overlay"></div>
-
-        <span>Contact us</span>
-      </div>
-
-      <div class="contact-content-box">
-        <div class="address-box">
+      </header>
+      <section class="banner">
+        <div class="banner-img">
+          <img src="/img/contact/unsplash_uXuXXHDgMdM.png" alt="" />
+        </div>
+        <div class="banner-overlay"></div>
+        <div class="banner-title">
+          <span>Contact</span>
+        </div>
+      </section>
+      <section class="contact-con">
+        <div class="row">
           <span>Address</span>
           <span
             >㈜퀀텀엔터테인먼트 06085 서울특별시 강남구 영동대로 645 청우빌딩
             4층</span
           >
         </div>
-
-        <div class="email-box">
+        <div class="row">
           <span>E-mail</span>
           <span>qtent@quantumenter.com</span>
         </div>
-
-        <div class="Tel&Fax-box">
-          <span>Tel & Fax</span>
+        <div class="row">
+          <span>Tel & Faxl</span>
           <span>TEL: 02 512 9078</span>
           <span>FAX: 02 512 9079</span>
         </div>
-        <!--  -->
-        <div class="map-box">
-          <span>Map</span>
-
+        <div class="row">
+          <span>Map </span>
           <div class="map-img">
             <!-- * 카카오맵 - 지도퍼가기 -->
             <!-- 1. 지도 노드 -->
@@ -117,34 +88,35 @@
             ></div>
           </div>
         </div>
-      </div>
-
-      <div class="second-footer">
-        <div>
-          <img src="img/footer/subfooter-body.png" title="Group 181.png" />
+      </section>
+      <footer>
+        <div class="second-footer">
+          <div>
+            <img src="img/footer/subfooter-body.png" title="Group 181.png" />
+          </div>
         </div>
-      </div>
-    </section>
-  </body>
+      </footer>
+    </div>
 
-  <!--
+    <!-- 지도 스크립트 -->
+    <!--
 	2. 설치 스크립트
 	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
 -->
-  <script
-    charset="UTF-8"
-    class="daum_roughmap_loader_script"
-    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
-  ></script>
+    <script
+      charset="UTF-8"
+      class="daum_roughmap_loader_script"
+      src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+    ></script>
 
-  <!-- 3. 실행 스크립트 -->
-  <script charset="UTF-8">
-    new daum.roughmap.Lander({
-      timestamp: "1663678350005",
-      key: "2brsy",
-      mapWidth: "700",
-      mapHeight: "360",
-    }).render();
-  </script>
-  <script src="js/main.js"></script>
+    <!-- 3. 실행 스크립트 -->
+    <script charset="UTF-8">
+      new daum.roughmap.Lander({
+        timestamp: "1663678350005",
+        key: "2brsy",
+        mapWidth: "700",
+        mapHeight: "360",
+      }).render();
+    </script>
+  </body>
 </html>

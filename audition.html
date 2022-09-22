@@ -1,173 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="/css/sub.css" />
+    <link rel="stylesheet" href="/css/subresponse.css" />
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://chaeee96.github.io/cdn/jquery.fadethis.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <!-- font-awesome -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/sub.js"></script>
+    <link rel="icon" href="img/main/favi.png" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container audition-wrap">
+      <header>
+        <div class="logo">
+          <a href="/index.html"><img src="/img/logo/q_logo.png" alt="" /></a>
+        </div>
+        <div class="mobile-menu">
+          <div class="mobile-menu-con">
+            <ul>
+              <li><a href="/company.html">COMPANY</a></li>
+              <li><a href="/business.html">BUSINESS</a></li>
+              <li><a href="/artist.html">ARTIST</a></li>
+              <li><a href="/audition.html">AUDITION</a></li>
+              <li><a href="/contact.html">CONTACT</a></li>
+            </ul>
+          </div>
 
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
-  <meta name="viewport" content="user-scalable=0;"/>
-  <meta content="yes" name="apple-mobile-web-app-capable" />
-  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" href="img/main/favi.png" />
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/response.css">
-  <title>QUANTUM ENTERTAINMENT
-  </title>
-</head>
-<body>
-   
-  <div class="audition-content-01">
-    <section class="second-menu-con">
-    <div class="second-menu-box">
-     <div class="logo-box">
-      <a href="index.html"> <img src="img/logo/q_logo.png" title="logo(eng).png"/></a>
-     </div>
-    <div class="menu-box">
-      <ul>
-        <li>
-          <a href="company.html">COMPANY</a>
-        </li>
-        <li><a href="business.html">BUSINESS</a></li>
-        <li><a href="artist.html">ARTIST</a></li>
-        <li><a href="audition.html">AUDITION</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </div>
-    </div>
-    
-  </section>
-
-  <div class="mobile-menu-box">
-    <div class="mobile-menu-con">
-      
-      <div class="mobile-menu-txt-box">
-        <ul>
-         <li><a href="/docs/company.html">COMPANY</a></li>
-         <li><a href="/docs/business.html">BUSINESS</a></li>
-         <li><a href="/docs/artist.html">ARTIST</a></li>
-         <li><a href="/docs/audition.html">AUDTITION</a></li>
-         <li><a href="/docs/contact.html">CONTACT</a></li>
-        </ul>
-      
-     </div>
-      <div class="mobile-menu-btn-box">
-
-       <div class="mobile-menu-btn">
-
-         <a href="#" id="menu-btn-click"><img src="img/main/mobile-menu.png" alt=""></a>
-       </div>
-      
-
-      </div>
-    </div>
-  
- </div>
-    <div class="img-banner">
-      <div class="img-box">
-         
-        <img src="/img/audition/unsplash_NjjONA3K0-k.png" title="unsplash_mRdZYoo8m3Q.png"/>
-
-      </div>
-      <div class="overlay">
-        
-      </div>
-     
-      <span>Audition</span>
-    </div>
-    <div class="audition-title-box">
-      <div>
-        <span>당신의 가능성</span><span>을 보여주세요!</span></br>
-      </div>
-      <div>
-        <span>235 엔터테인먼트에서는 참신한 인재 발굴을 위해</br> 오디션을 진행하고 있습니다.</span></br>
-      </div>
-    </div>
-    <div class="inform-box">
-      <div class="inform-title">
-        <span>오디션 안내</span>
-      </div>
-      <div class="inform-content-box">
-        <div class="inform-content">
-          <div><img src="/img/audition/Group 174.png" title="Group 174.png"/></div>
-          <div class="inform-content-txt">
-            <span>01.</span></br>
-            <span>지원기간</span></br>
-            <span>:</span>
-            <span>상시접수</span>
+          <div class="mobile-icon">
+            <div class="active">
+              <img src="/img/main/mobile-menu-open.png" alt="" />
+            </div>
+            <div>
+              <img src="/img/main/mobile-menu-close.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="inform-content">
-        <div><img src="/img/audition/Group 175.png" title="Group 175.png"/></div>
-        <div class="inform-content-txt">
-          <span>02.</span></br>
-          <span>모집분야</span></br>
-          <span>:</span>
-          <span>연기자</span>
+        <div class="menu-con">
+          <ul>
+            <li><a href="/company.html">COMPANY</a></li>
+            <li><a href="/business.html">BUSINESS</a></li>
+            <li><a href="/artist.html">ARTIST</a></li>
+            <li><a href="/audition.html">AUDITION</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+          </ul>
         </div>
-
-      </div>
-        <div class="inform-content">
-          <div><img src="/img/audition/Group 176.png" title="Group 176.png"/></div>
-          <div class="inform-content-txt">
-              <span>03.</span></br>
-              <span>지원방법</span></br>
-              <span>:</span>
-              <span>지원서 작성 후 </span></br>
-              <span>이메일 접수</span></br>
-              <span>qtent@quantumenter.com</span>
+      </header>
+      <section class="banner">
+        <div class="banner-img">
+          <img src="/img/audition/unsplash_NjjONA3K0-k.png" alt="" />
+        </div>
+        <div class="banner-overlay"></div>
+        <div class="banner-title">
+          <span>Audition</span>
+        </div>
+      </section>
+      <section class="title">
+        <span> <b>당신의 가능성</b> 을 보여주세요!</span>
+        <small
+          >235 엔터테인먼트에서는 참신한 인재 발굴을 위해 <br />
+          오디션을 진행하고 있습니다.</small
+        >
+      </section>
+      <section class="audition-con">
+        <div class="audition-con-img">
+          <img src="/img/audition/audition_con.png" alt="" />
+        </div>
+      </section>
+      <footer>
+        <div class="second-footer">
+          <div>
+            <img src="img/footer/subfooter-body.png" title="Group 181.png" />
           </div>
-      </div>
-        <div class="inform-content">
-        <div><img src="/img/audition/Group 177.png" title="Group 177.png"/></div>
-        <div class="inform-content-txt">
-          <span>04.</span></br>
-          <span>제출서류</span></br>
-          <span>:</span>
-          <span>지원서, 자기소개영상, </span></br>
-          <span>사진 3장 이내</span>        
         </div>
-      </div>
-        <div class="direction-01">
-           <img src="/img/audition/Group 178.png" title="Group 178.png"/>
-        </div>
-        <div class="direction-02">
-          <img src="/img/audition/Group 179.png" title="Group 179.png"/>
-        </div>
-        <div class="direction-03">  
-<img src="/img/audition/Group 180.png" title="Group 180.png"/>
-        </div>
-
-      </div>
-      
+      </footer>
     </div>
-
-    <div class= "submit-box">
-      <div class="submit-btn"><a href="file/235엔터 오디션 양식.hwp"><span>지원서 다운로드</span></a></div>
-      
-    </div>
-
-    <div class="second-footer">
-   <div>
-    <img src="img/footer/subfooter-body.png" title="Group 181.png" />
-   </div>
-   
-  </div>
-
-  </div>
-
-
-</body>
-
-
-<script src="js/auditon.js"></script>
+  </body>
 </html>

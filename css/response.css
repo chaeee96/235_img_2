@@ -1,227 +1,13 @@
 /* 미디어 쿼리 */
-
-@media (min-width: 761px) and (max-width: 1148px) {
-  /* 태블릿   */
-
-  .img-box > div:nth-child(1) {
-    /* background-image: url("https://i.imgur.com/tMJM1dx.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .img-box > div:nth-child(2) {
-    /* background-image: url("https://i.imgur.com/iRFl9dP.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .img-box > div:nth-child(3) {
-    /* background-image: url("https://i.imgur.com/VghYIo6.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .img-box > div:nth-child(4) {
-    /* background-image: url("https://i.imgur.com/q77Lx3w.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .main-main-content-1 .mobile-menu-box {
-    display: block;
-    right: 0%;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-
-  .company-content-01 .mobile-menu-box {
-    display: block;
-    right: 0%;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-
-  .menu-box {
-    display: none;
-  }
-
-  .logo-box {
-    margin-left: 5%;
-  }
-
-  .main01-slide-txt-box {
-    left: 10%;
-    top: 28%;
-  }
-  .scroll-box {
-    left: 48%;
-  }
-  .main-content-02 .content-02__title > span {
-    font-size: 32px;
-  }
-  /*  모바일 메뉴박스  */
-
-  .mobile-menu-btn-box {
-    position: absolute;
-    top: 6%;
-    left: 66%;
-    width: 42px;
-    height: 42px;
-  }
-  .mobile-menu-btn-box a {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  .mobile-menu-btn {
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 42px;
-    height: 42px;
-
-    transition: all 0.5s ease-in-out 0.1s;
-  }
-
-  .mobile-menu-con {
-    position: relative;
-    height: 100%;
-  }
-
-  .mobile-menu-con > div {
-    position: absolute;
-  }
-
-  .mobile-menu-txt-box {
-    position: absolute;
-    right: -120%;
-    width: 100%;
-    height: 100%;
-    background-color: #ececec;
-
-    transition: all 0.5s ease-in-out 0.3s;
-  }
-
-  .mobile-menu-txt-box > ul {
-    /*     
-      width: 100%;
-      height: 70%; */
-    margin-top: 120px;
-  }
-  .mobile-menu-txt-box > ul > li {
-    margin: 40px;
-    width: 80%;
-    margin: 30px auto;
-    /*     background-color:pink;  */
-  }
-
-  .mobile-menu-txt-box > ul > li a {
-    display: block;
-    padding: 15px 20px;
-    width: 80%;
-    font-size: 20px;
-    z-index: 100;
-    /*  background-color:pink;  */
-  }
-
-  .main-main-content-1 .main01-slide-txt-box {
-    left: 12%;
-  }
-  .content-02 > .bg-logo > div:nth-child(1) {
-    top: 16%;
-    left: 26%;
-  }
-
-  .main-content-02 .content-02__title {
-    top: 8%;
-    left: 10%;
-  }
-
-  .content-02__title span {
-    font-size: 32px;
-  }
-
-  .contact-content-01 .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-
-  .business-content .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-  .audition-content-01 .mobile-menu-box {
-    display: block;
-    right: 70px;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-
-  .business-content .business-content-box {
-    flex-direction: column;
-    width: 600px;
-  }
-  .audition-content-01 .audition-title-box {
-    width: 600px;
-  }
-
-  .audition-content-01 .inform-box {
-    width: 100%;
-    margin: auto;
-  }
-
-  .audition-content-01 .mobile-menu-box {
-    z-index: 2000;
-  }
-  .artist-content .artist-box {
-    width: 710px;
-    height: 1100px;
-  }
-  .artist {
-    margin: auto;
-  }
-
-  .artist-content .artists {
-    flex-direction: column;
-  }
-
-  /*  회사페이지   */
-
-  .artist-detail-01-content .artist-intro-box {
-    width: 600px;
-    margin-left: 120px;
-  }
-  /*  */
-}
-
-@media (min-width: 200px) and (max-width: 760px) {
+@media (min-width: 200px) and (max-width: 768px) {
   /*  폰  */
 
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .img-box > div:nth-child(1) {
     /* background-image: url("https://i.imgur.com/tMJM1dx.png"); */
     background-repeat: no-repeat;
@@ -243,91 +29,17 @@
     background-size: cover;
   }
 
-  .company-content-01 .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
+  .main-message span {
+    font-size: 1rem;
   }
-  .contact-content-01 .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
+  .footer-body {
+    width: 700px;
   }
-  .business-content .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-  .audition-content-01 .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-  .artist-content .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-  .artist-detail-01-content .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-  .artist-detail-02-content .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-  }
-  .company-content-01 .mobile-menu-box {
-    display: block;
-    right: 0;
-    width: 35%;
-    height: 100%;
-    z-index: 100;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
+  .footer-body span {
+    font-size: 1.7rem;
   }
   .company-content-01 .second-menu-con {
     height: 80px;
-  }
-  .company-content-01 .mobile-menu-btn-box {
-    top: 4%;
   }
   .menu-box {
     display: none;
@@ -337,23 +49,6 @@
     transform: scale(0.6);
     top: 20%;
     left: -4%;
-  }
-
-  html,
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  .mobile-menu-icon-box {
-    position: absolute;
-    left: 86%;
-    top: 33%;
-    /* background-image: url("https://i.imgur.com/JQ9ZDjH.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 26px;
-    height: 26px;
   }
 
   .main01-slide-txt-box {
@@ -374,73 +69,6 @@
   }
 
   /*  모바일 메뉴박스  */
-
-  .mobile-menu-btn-box {
-    position: absolute;
-    top: 7%;
-    left: 70%;
-    width: 22px;
-    height: 22px;
-  }
-  .mobile-menu-btn-box a {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  .mobile-menu-btn {
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 22px;
-    height: 22px;
-
-    transition: all 0.5s ease-in-out 0.1s;
-  }
-
-  .mobile-menu-con {
-    position: relative;
-    height: 100%;
-  }
-
-  .mobile-menu-con > div {
-    position: absolute;
-  }
-
-  .mobile-menu-txt-box {
-    position: absolute;
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: #ececec;
-
-    transition: all 0.5s ease-in-out 0.3s;
-  }
-
-  .mobile-menu-txt-box > ul {
-    /*     
-      width: 100%;
-      height: 70%; */
-    margin-top: 120px;
-  }
-  .mobile-menu-txt-box > ul > li {
-    margin: 40px;
-    width: 80%;
-    margin: 30px auto;
-    /*     background-color:pink;  */
-  }
-
-  .main-content-02 .mobile-menu-txt-box > ul > li a {
-    display: block;
-    padding: 15px 20px;
-    width: 80%;
-    font-size: 14px;
-    z-index: 100;
-    /*  background-color:pink;  */
-  }
 
   .main-content-02 .content-02 > .bg-logo > div:nth-child(1) {
     top: 1%;

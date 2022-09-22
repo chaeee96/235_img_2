@@ -1,0 +1,57 @@
+@media (min-width: 200px) and (max-width: 768px) {
+  /*  폰  */
+  /* 모바일메뉴 */
+  .mobile-menu {
+    display: block;
+    z-index: 100;
+  }
+  .second-menu-box {
+    position: relative;
+    margin: 0 !important;
+    height: 6rem !important;
+  }
+  .mobile-icon {
+    position: absolute;
+    right: 12%;
+    top: 21%;
+    transform: translateY(-50%);
+  }
+  .mobile-icon div {
+    z-index: 100;
+    position: absolute;
+    display: none;
+  }
+
+  .mobile-icon div.active {
+    display: block;
+    z-index: 101;
+  }
+
+  .mobile-menu ul {
+    height: 400px;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    color: #1c345d;
+  }
+  .mobile-menu .menu-con {
+    transition: 0.4s ease-out;
+    top: 0;
+    right: -54%;
+    background-color: aliceblue;
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+  }
+  .mobile-menu.active .menu-con {
+    right: 0;
+    top: 0;
+    background-color: aliceblue;
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+  }
+}
